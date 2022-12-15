@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry Point 
+ * main - Entry Point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
-{ 
+{
 	int n;
 	char ch;
 
@@ -14,7 +14,7 @@ int main(void)
 		putchar(n);
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
-	{ 
+	{
 		putchar(ch);
 	}
 	putchar('\n');
